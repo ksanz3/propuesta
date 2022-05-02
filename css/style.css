@@ -1,0 +1,182 @@
+html,
+body {
+  background: #ecf0f3;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  /*     text-shadow: #dc3545 2px 2px 5px */
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 8px 0;
+}
+
+h6 {
+  margin: auto;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+a,
+a:visited,
+a:hover {
+  margin-right: 10px;
+  color: #b6b5b5;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+a:hover {
+  color: #dc3545;
+}
+
+img {
+  margin: 1px;
+  padding: 1px;
+  width: 30vh;
+}
+
+.spacer {
+  flex: 1;
+  text-align: right;
+}
+
+
+.space {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.space-top {
+  height: 4.5em
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: arial;
+}
+
+.toolbar img {
+  margin-left: 14px;
+}
+
+a,
+a:visited,
+a:hover {
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+a:hover {
+  color: #dc3545;
+}
+
+
+nav {
+  text-align: center;
+  z-index: 999;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  top: 9vh;
+}
+
+.menu ul {
+  display: inline-flex;
+  margin-top: -3.5px;
+  padding: 0;
+  width: auto;
+  list-style: none;
+  font-family: "arial black";
+  font-size: 80%;
+}
+
+.menu a {
+  display: flex;
+  padding: 0.5em;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-decoration: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.menu a:hover {
+  color: #ffffff;
+  background-color: #dc3545;
+  box-shadow: 4px 4px 10px 2px rgb(87, 22, 28);
+}
+
+/* submenu */
+.menu ul li ul {
+  display: none;
+  margin: auto;
+}
+
+.menu ul li a:hover+ul,
+.menu ul li ul:hover {
+  display: inline;
+}
+
+
+.wall {
+  padding: 6em;
+  background: rgb(244, 142, 142);
+  background: radial-gradient(circle, rgba(244, 142, 142, 1) 0%, rgba(220, 53, 69, 1) 100%);
+  text-shadow: #000 2px 2px 4px;
+}
+
+tbody {
+  overflow-y: scroll;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  height: 4em;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1.2em;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 10pt;
+  text-align: center;
+}
+
+footer .twitter-logo {
+  width: 6vh;
+  margin: 0;
+}
+
+footer .instagram-logo {
+  width: 4vh;
+  margin: 0;
+}
+
+footer .twitter-logo:hover,
+footer .instagram-logo:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 #ff0000);
+}

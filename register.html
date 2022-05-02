@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keyboard" content="st arcorp, sistemas automatizados, tecnologia, vialidad, peajes, operatividad, empresa privada">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="Stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="Stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<title>ARCORP PLUS</title>
+</head>
+<body>
+
+<!-- header -->
+<div class="toolbar d-flex justify-content-between">
+  <img alt="Arcorp Logo" src="asset/arcorp.svg">
+  <div class="space">
+  <p class="text-danger mb-0">plus</p>
+  </div>
+  <div class="spacer">
+   <a href="login.html"><button class="btn btn-danger">Ingresar</button></a>
+   <a href="register.html"><button class="btn btn-secondary">Registrarse</button></a>
+  </div>
+</div>
+<div class="space-top"></div>
+
+<!-- section form -->
+
+ <div class="container py-4">
+
+<div class="row d-flex justify-content-center align-items-center">
+    <div class="signup-form-container">
+    
+         <!-- form start -->
+         <form role="form" id="register-form" autocomplete="off">
+         
+        <!-- form header -->  
+         <div class="form-header">
+
+          <h3 class="form-title"><i class="fa fa-user"></i> Registrate</h3> 
+                      
+         <div class="pull-right">
+             <h3 class="form-title"><span class="glyphicon glyphicon-pencil"></span></h3>
+         </div>
+                      
+         </div>
+         
+         <div class="form-body">
+
+          <!-- form body will be here and input controls -->    
+                      
+            <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                   <input name="name" type="text" class="form-control" placeholder="Nombre de usuario">
+                   </div>
+                   <span class="help-block" id="error"></span>
+              </div>
+                        
+              <div class="form-group">
+                   <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                   <input name="email" type="text" class="form-control" placeholder="Email">
+                   </div> 
+                   <span class="help-block" id="error"></span>                     
+              </div>
+                        
+              <div class="row">
+                        
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="password" id="password" type="password" class="form-control" placeholder="Contraseña">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input name="cpassword" type="password" class="form-control" placeholder="Repite la contraseña">
+                        </div>  
+                        <span class="help-block" id="error"></span>                    
+                   </div>
+                            
+             </div>
+                        
+                        
+            </div>
+            
+            <!-- form footer, let say for submit button -->
+            <div class="form-footer">
+                <button type="submit" class="btn btn-danger">
+                 <span class="glyphicon glyphicon-log-in"></span>Registrarte!
+                 </button>
+            </div>
+
+
+            </form>
+            
+           </div>
+  </div>
+ </div>
+
+<!-- footer -->
+<footer>
+    <a aria-label="Arcorp on Twitter" target="_blank" rel="noopener" href="https://twitter.com/Arcorp_plus" title="Twitter"><img src="asset/Twitter-logo.png" class="twitter-logo" name="twitter">
+ 	 </a>
+  	<a aria-label="Arcorp on Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/Arcorp_plus" title="Instagram"><img src="asset/insta.svg" class="instagram-logo"  name="instagram">
+  	</a>
+       Todos los derechos reservados | ARCORP ®
+</footer>
+
+<!-- validacion de campos -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+
+</body>
+</html> 
